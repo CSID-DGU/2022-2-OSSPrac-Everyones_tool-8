@@ -1,0 +1,7 @@
+version: "3.0"
+
+services:
+  hw4-app:
+    build: .
+    ports: 
+      - "80:80"
